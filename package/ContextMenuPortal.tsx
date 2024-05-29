@@ -1,7 +1,6 @@
 import { Portal } from '@mantine/core';
 import { useClickOutside, useHotkeys, useWindowEvent } from '@mantine/hooks';
 import { ContextMenu, type ContextMenuProps } from './ContextMenu';
-import { ContextMenuOverlay } from './ContextMenuOverlay';
 
 export type ContextMenuPortalProps = ContextMenuProps & {
   zIndex?: number;
